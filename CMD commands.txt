@@ -62,6 +62,21 @@ npm install @types/enzyme-adapter-react-16    //To solve Could not find a declar
 
 npm install enzyme-to-json    //    npm test -- --watchAll
 
+npm i npm    //npm update
+
+git init  // Initialized empty Git repository in C:/Users/Diego/Desktop/react-course-projects/expensify-app/.git/
+
+git status
+
+git add package.json
+
+git add .
+
+git commit -m "Initial Commit"
+
+git config user.email "diegotowerss@hotmail.com"   //git config --global user.email "diegotowerss@hotmail.com"
+git config user.name "Diego"
+
 
 
 
