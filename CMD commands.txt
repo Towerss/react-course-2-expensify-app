@@ -1,0 +1,79 @@
+** https://drive.google.com/drive/folders/1KPnXiskjWpeY_39_hniK9RdOAjmO3TvB
+
+
+node -v
+
+npm -v
+
+npm install -g yarn
+
+yarn --version
+
+yarn global add live-server
+npm install -g live-server
+npm install live-server babel-cli@6.24.1 babel-preset-react@6.24.1 babel-preset-env@1.5.2
+yarn global babel-cli@6.24.1
+npm install -g babel-cli@6.24.1
+
+yarn add babel-preset-react@6.24.1 babel-preset-env@1.5.2
+npm install babel-preset-react@6.24.1 babel-preset-env@1.5.2
+
+live-server public
+
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+yarn install or npm install //to re-install dependencies
+
+npm uninstall -g babel-cli live-server
+npm install live-server babel-cli@6.24.1 babel-preset-react@6.24.1 babel-preset-env@1.5.2
+
+npm run build and npm run serve //as per declared in the package.json file
+
+npm install --save-dev webpack@4.2.0
+npm install validator
+npm install react react-dom
+npm install babel-core babel-loader
+npm install webpack-dev-server   //    npm run dev-server
+npm install webpack-cli -D
+
+npm install react-modal //Package to work with costume modals
+
+npm install style-loader css-loader //Packages to work with Styling
+
+npm install sass-loader node-sass  //To load sass and scss
+
+npm install normalize.css //For multibrowser compatibility. Resets default browser css
+
+npm install babel-plugin-transform-class-properties
+
+npm install react-redux
+
+npm install moment
+
+npm install react-dates
+
+npm install react-addons-shallow-compare
+
+npm install react-test-renderer
+
+npm install enzyme enzyme-adapter-react-16 raf
+
+npm install @types/enzyme-adapter-react-16    //To solve Could not find a declaration file for module 'enzyme'.
+
+npm install enzyme-to-json    //    npm test -- --watchAll
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
