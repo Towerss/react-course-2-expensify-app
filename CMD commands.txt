@@ -95,7 +95,22 @@ git remote add origin git@github.com:Towerss/react-course-2-expensify-app.git   
 git push -u origin master        //Upload local content to keep track of it
 
 #Optimize webpack for production
+
 npm run build
+
+npm install --save-dev extract-text-webpack-plugin            //To move CSS to a separate file
+
+npm i -D extract-text-webpack-plugin@next    //To fix DeprecationWarning: Tapable.plugin is deprecated. Use new API on `.hooks` instead // Chunk.entrypoints: Use Chunks.groupsIterable and filter by instanceof Entrypoint instead
+
+
+#Express server for node
+
+npm install express --save
+
+#Heroku
+// diegotowerss@hotmail
+
+heroku create react-expensify-towerss  // To create an app in Heroku, it creates another git remote repo for heroku
 
 
 
