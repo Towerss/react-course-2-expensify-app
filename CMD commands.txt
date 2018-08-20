@@ -66,6 +66,8 @@ npm i npm    //npm update
 
 git init  // Initialized empty Git repository in C:/Users/Diego/Desktop/react-course-projects/expensify-app/.git/
 
+# Git commands
+
 git status
 
 git add package.json
@@ -76,6 +78,26 @@ git commit -m "Initial Commit"
 
 git config user.email "diegotowerss@hotmail.com"   //git config --global user.email "diegotowerss@hotmail.com"
 git config user.name "Diego"
+
+git log
+
+#SSH for Git:    https://help.github.com/articles/connecting-to-github-with-ssh/
+
+ssh-keygen -t rsa -b 4096 -C "diegotowerss@hotmail"    // 1towerss8
+	
+	Your identification has been saved in /c/Users/Diego/.ssh/id_rsa.
+	Your public key has been saved in /c/Users/Diego/.ssh/id_rsa.pub.
+
+ssh -T git@github.com    //Test initial connection
+
+git remote add origin git@github.com:Towerss/react-course-2-expensify-app.git     //Connect local repo to Github
+
+git push -u origin master        //Upload local content to keep track of it
+
+#Optimize webpack for production
+npm run build
+
+
 
 
 
