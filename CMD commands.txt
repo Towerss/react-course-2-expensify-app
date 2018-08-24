@@ -112,6 +112,34 @@ npm install express --save
 
 heroku create react-expensify-towerss  // To create an app in Heroku, it creates another git remote repo for heroku
 
+git push heroku master    //First deployed to https://react-expensify-towerss.herokuapp.com/
+
+heroku open   // to laung the app from cmd
+
+heroku logs   // to debug if there were issues while deploying
+
+npm install chalk --dev
+
+npm install numeral
+
+npm install --save redux-thunk
+
+npm install redux-mock-store --only=dev
+
+npm install cross-env
+
+npm install dotenv
+
+#Heroku ENV variables config
+
+heroku config
+
+heroku config:set KEY=value
+
+
+
+
+
 
 
 
