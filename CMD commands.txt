@@ -136,6 +136,10 @@ heroku config
 
 heroku config:set KEY=value
 
+npm install --save history           //To access the history as react-router does
+
+
+
 
 
 
