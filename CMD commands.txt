@@ -138,6 +138,8 @@ heroku config:set KEY=value
 
 npm install --save history           //To access the history as react-router does
 
+npm install --save @babel/polyfill                // to add legacy browswer compatibility
+
 
 
 
