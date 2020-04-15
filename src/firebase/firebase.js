@@ -7,8 +7,28 @@ const config = {
   databaseURL: process.env.FIREBASE_DATABASE_URL,
   projectId: process.env.FIREBASE_PROJECT_ID,
   storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_APP_ID
 };
+
+/**
+ * IMPORTANT!!!
+ * In the Firebase project console add these rules to the database
+ */
+// These rules grant access to a node matching the authenticated
+// user's ID from the Firebase auth token
+// {
+//   "rules": {
+//     "users": {
+//       "$uid": {
+//         ".read": "$uid === auth.uid",
+//         ".write": "$uid === auth.uid"
+//       }
+//     }
+//   }
+// }
+
+
 
 firebase.initializeApp(config);
 
